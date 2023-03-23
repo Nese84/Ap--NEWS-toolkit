@@ -13,6 +13,6 @@ const newsSlice = createSlice({
       },
     },
 
-export const {clearNews} = newsSlice.actions
+    export const { clearNews } = newsSlice.actions
 
-export default newsSlice.reducer
+    export default newsSlice.reducer

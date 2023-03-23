@@ -11,7 +11,7 @@ import { clearUser } from "../features/authSlice"
 export default function Navbar() {
   const navigate = useNavigate()
   const dispatch = useDispatch()
-  //TODO user bilgisini global state'den oku
+  
   const { user } = useSelector((state) => state.auth)
   console.log(user)
 
